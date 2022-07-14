@@ -293,8 +293,7 @@ font-weight:bolder;
 color: rgba(85, 72, 56, 0.877);
 }
 
-
- /* .hover2:hover{
+/*.hover2:hover{
     background-color: rgb(5, 5, 5);
     color: rgba(34, 37, 228, 0.801);
     padding: 20px;
@@ -302,8 +301,7 @@ color: rgba(85, 72, 56, 0.877);
 }
  */
 
-
-/*
+  /* 
 .hover1:hover{
     font-size: 10px;
     color: rgba(196, 137, 28, 0.74);
@@ -465,7 +463,7 @@ border-radius: 9px;
 
 footer{
     background-color: black;
-    height: 200px;
+    height: 210px;
 }
 
 /* end */
