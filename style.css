@@ -1,0 +1,472 @@
+*{
+
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    /*  font-family: 'Lato', sans-serif; */
+        /*  font-family: 'Oswald', sans-serif; */ 
+        /*  font-family: 'Edu VIC WA NT Beginner', cursive; */ 
+        /*  font-family: 'Rubik Moonrocks', cursive; */ 
+
+     font-family: 'Poppins', sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* conteinar section state */
+
+.conteinar{
+    background-image: linear-gradient(to left, rgb(0, 0, 0),transparent),url(img/header/hederpic.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+    height:800px;
+    
+
+}
+
+/* benner state */
+
+.benner-top img{
+   
+    margin:6px;
+    padding:1px;
+    margin-left: 30px;
+}
+
+.benner-top img{
+   
+    width:50px;
+    height:50px;
+    opacity:0.7;
+    border-radius:50px;
+}
+
+.benner-top img:hover{
+   
+    opacity:1;
+    border-radius: 50px;
+    border: 2px solid green;
+   
+}
+
+/* benner 2nd */
+
+/* search bar state */
+
+.search-ber input{
+    font-size:16px;
+    padding:0px px;
+    border: none;
+    width:80%;
+    height: 100%;
+    font-weight:bolder;
+    color: black;
+    border-radius: 80px;
+    padding-left:22px;
+   
+}
+.search-ber input:focus{
+    outline: none;
+
+}
+
+.search-ber a{
+ color: rgb(0, 0, 0);
+ font-size:15px;
+ padding: 40px 0px;
+ 
+}
+
+.search-btn{
+ margin-left: 20px;
+ padding:40px 0;
+ 
+
+}
+.search-ber{
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height:50px;
+    position: relative;
+    border: 2px solid rgb(170, 73, 73);
+    border-radius: 50px;
+}
+/* search bar end */
+/*  navber state */
+
+.navbar{
+ 
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(10, 10, 10, 0.87);
+    
+}
+/* 
+.navbar{
+
+
+}
+*/
+
+.navbar>.nav-menu{
+    margin:10px 30px;
+   
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar>.search-ber{
+    margin:6px; 
+    padding: 12px 0px;
+    margin-right: 380px;
+}
+
+.nav-menu a{
+    padding:0px 10px;
+    text-decoration: none;
+    color:rgba(221, 207, 207, 0.904);
+    margin-right: 30px;
+   
+}
+.nav-menu a:hover {
+    color: rgb(247, 250, 243);
+    background-color: brown;
+    border-radius: 6px;
+    text-decoration: underline;
+    padding:5px 10px;
+
+}
+/*  navber end */
+
+/* header text state */
+
+.header-text{
+margin-top:120px;
+text-align: right;
+margin-right:300px;
+}
+
+.header-text>h1{
+
+    font-size: 50px;
+    color: rgb(233, 217, 217);
+    font-weight: 800;
+}
+.header-text>p{
+    color: rgba(240, 255, 255, 0.877);
+    font-size:20px;
+    margin-top: 26px;
+}
+
+.header-text>h4{
+
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top:40px;
+    
+}
+
+.header-text>h4,a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+     
+}
+
+
+#btn-color{
+
+    border-radius: 5px;
+    padding: 14px 20px;
+    background-image: linear-gradient(rgba(228, 54, 24, 0.938), rgb(228, 103, 89));
+}
+/* header text end */
+
+/* conteinar section end */
+
+/* main state */
+
+/* text-video state */
+
+.text-video{
+    margin: 120px 120px;
+    display: flex;
+    border-radius: 5px;
+    height: 500px;
+    background-color: rgba(241, 237, 231, 0.363);
+    justify-content: space-around;
+   
+   
+}
+
+
+.main-text>h1{
+    font-size: 40px;
+}
+
+.main-text>p{
+    font-size:16px;
+    font-weight: 900;
+    color: rgba(5, 5, 5, 0.582);
+}
+
+.main-text{
+padding: 30px;
+
+}
+
+
+
+.main-video{
+    padding: 0px 22px;
+    margin-top:30px;
+   
+    
+    
+}
+
+video{
+    width:550px;
+    height:310px;
+    border-radius: 8px;
+       
+}
+
+
+
+
+#Explore{
+    text-decoration: none;
+    background-color: brown;
+    color:rgb(255, 255, 255);
+    padding:18px 24px;
+    border-radius: 6px;
+    font-size:18px;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(95, 158, 160, 0.637),rgba(255, 222, 173, 0.562));
+}
+
+/* text-video end */
+
+/* aside stata */
+
+.pic-text{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 150px;
+}
+
+
+#asid-pic img{
+    width: 400px;
+    height:400px;
+
+    border-radius: 6px;
+}
+
+#asid-pic img:hover{
+
+    border: 3px dashed rgb(255, 80, 80);
+    
+   
+}
+
+#asid-text h1{
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+#asid-text p{
+
+font-size:18px;
+font-weight:bolder;
+color: rgba(85, 72, 56, 0.877);
+}
+
+
+ /* .hover2:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgba(34, 37, 228, 0.801);
+    padding: 20px;
+    border-radius: 6px;
+}
+ */
+
+
+/*
+.hover1:hover{
+    font-size: 10px;
+    color: rgba(196, 137, 28, 0.74);
+    padding:10px;
+    border-radius: 6px;
+}
+*/
+
+#asid-pic{
+    margin-right:50px;
+}
+
+#asid-text{
+    margin-left: 50px;
+}
+
+#asid-text a{
+    background-image:linear-gradient(rgba(255, 255, 0, 0.678),rgba(0, 139, 139, 0.671));
+    color:rgba(149, 42, 192, 0.822);
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 6px;
+}
+/* aside end */
+.dona-tion{
+    margin-top:96px;
+    font-size: 50px;
+    text-align: center;
+}
+ /* help state */
+
+.help-1{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1.7rem ;
+    padding:80px 140px;
+  
+
+}
+
+.chaild-2{
+    background-color:rgba(232, 235, 235, 0.493);
+    padding:70px 28px;
+    border-radius: 6px;
+
+}
+ /* help state */
+ /* shadow-pic state */
+.shadow-pic-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3rem 0;
+   text-align:center;
+   margin: 0px 80px;
+}
+
+.shadow-2 img{
+ border-radius: 8px;
+ height: 350px;
+ 
+}
+.chaild-5{
+    display: flex;
+}
+
+
+ /* shadow-pic end */
+/* Charity section state */
+.Charity{
+    text-align: center;
+    margin-top:90px;
+}
+
+.Charity h1{
+    font-size:50px;
+    font-weight: 700;
+
+}
+
+.Charity p{
+    font-size: 18px;
+    font-weight:400;
+}
+/* Charity section end */
+/* cad section state */
+
+.zakat-heading{
+    border-radius: px 0px;
+     
+}
+
+
+.cad-pic{
+    
+  border-radius: 9px 9px 0px 0px; 
+
+  width:400px;
+}
+
+.zakat-heading>h2{
+    text-align: center;
+}
+
+.zakat-heading>p{
+font-size:18px;
+
+ /* margin-left: 20px; */
+ padding-left:20px;
+
+}
+
+
+.cad-design{
+    display: flex;
+    justify-content: space-evenly
+   
+   
+  
+}
+.cad-zakat1{
+
+    margin-top: 50px;
+background-color: rgba(255, 255, 255, 0.596);
+
+border-radius:9px;
+border: 1px solid rgba(0, 0, 0, 0.185);
+
+}
+  
+
+.cad-link a{
+text-decoration: underline;
+font-size: larger;
+color: rgb(202, 29, 29);
+font-weight: 700;
+
+border-radius: 9px;
+
+
+}
+
+.cad-link{
+    padding:30px 20px;
+    
+
+}
+
+
+
+
+/* cad section end */
+
+
+
+/* main state */
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+/* end */
+
